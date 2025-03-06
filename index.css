@@ -26,13 +26,13 @@ body {
 }
 #box {
   background-color: blueviolet;
-  padding: 40px 20px  ;
-  border:2px solid white ;
+  padding: 40px 20px;
+  border: 2px solid white;
   margin: 40px;
   margin-left: 10px;
-  font-style:italic ;
+  font-style: italic;
   text-decoration: underline overline dotted;
   text-align: left;
   letter-spacing: 5px;
-  line-height: ;
+  line-height: 5px ;
 }

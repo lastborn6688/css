@@ -20,19 +20,124 @@ body {
 }
 #navbar {
   background-color: black;
-  color: aquamarine;
-  height: fit-content;
-  width: 100%;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  padding: 20px 30px;
+  font: size 20px;
 }
+#right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+#right > a {
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+#right > a:hover {
+  color: cornflowerblue;
+  text-decoration: underline;
+}
+#right > button > a {
+  color: blue;
+  text-decoration: none;
+  background-color: green;
+  font-size: 18px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 #box {
   background-color: blueviolet;
   padding: 40px 20px;
-  border: 2px solid white;
+  border: 2px solid rgb(32, 6, 6);
   margin: 40px;
-  margin-left: 10px;
   font-style: italic;
   text-decoration: underline overline dotted;
   text-align: left;
   letter-spacing: 5px;
-  line-height: 5px ;
+  line-height: 5px;
+}
+
+#box-container {
+  background: black;
+  padding: 30px;
+}
+.box1 {
+  background-color: red;
+  height: 300px;
+  width: 300px;
+}
+.box2 {
+  background-color: green;
+  height: 300px;
+  width: 300px;
+  /* display: none; */
+  visibility: hidden;
+}
+.box3 {
+  background-color: blue;
+  height: 300px;
+  width: 300px;
+}
+#inline > p {
+  background-color: royalblue;
+  display: inline; /* This will make the element inline*/
+}
+#block > a {
+  background-color: azure;
+  color: black;
+  display: block; /* This will make the element block*/
+}
+
+#inline-block > span {
+  background-color: indigo;
+  height: 500px;
+  width: 400px;
+  color: #000;
+  display: inline-block;
+}
+
+/* p{
+  color: red;
+  font-size: 20px;
+} */
+.descendant > p {
+  color: red;
+}
+#texts {
+  color: purple;
+  font-size: 30px;
+}
+n <p > one</p > <p > two</p > <p > three</p > #texts:hover {
+  background-color: rgb(31, 31, 135);
+  color: blueviolet;
+  width: fit-content;
+  text-decoration: underline;
+}
+h2 :hover {
+  background-color: aquamarine;
+  color: bisque;
+  width: fit-content;
+  text-decoration: underline;
+}
+
+#flex {
+  background-color: aqua;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#flex > p {
+  background-color: rgb(14, 45, 34);
+  color: brown;
+  height: 100px;
+  width: 100px;
 }

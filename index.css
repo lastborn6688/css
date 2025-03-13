@@ -20,6 +20,7 @@ body {
 }
 #navbar {
   background-color: black;
+  position: sticky;
   display: flex;
   color: white;
   justify-content: space-between;
@@ -112,7 +113,7 @@ body {
   color: purple;
   font-size: 30px;
 }
-n <p > one</p > <p > two</p > <p > three</p > #texts:hover {
+#texts:hover {
   background-color: rgb(31, 31, 135);
   color: blueviolet;
   width: fit-content;
@@ -140,4 +141,103 @@ h2 :hover {
   color: brown;
   height: 100px;
   width: 100px;
+}
+#position > section {
+  height: 100vh;
+  width: 100vw;
+}
+#relative {
+  background-color: red;
+}
+#relative-box {
+  background-color: rgb(84, 84, 201);
+  height: 100px;
+  width: 100px;
+}
+#fixed {
+  background-color: gray;
+  position: relative;
+}
+#fixed-box {
+  background-color: rgb(112, 112, 210);
+  height: 100px;
+  width: 100px;
+  position: fixed;
+  left: 10px;
+  top: 0px;
+  z-index: 5;
+}
+#sticky {
+  background-color: brown;
+  position: relative;
+}
+#sticky-box {
+  background-color: rgb(3, 3, 20);
+  height: 100px;
+  width: 100px;
+  position: sticky;
+  top: 100px;
+  z-index: 1;
+}
+#absolute {
+  background-color: indigo;
+}
+#absolute-box {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 10px;
+  top: 0px;
+}
+#static {
+  background-color: white;
+}
+#static-box {
+  background-color: rgb(0, 173, 173);
+  height: 100px;
+  width: 100px;
+}
+#contact-list {
+  background-color: gold;
+  color: black;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+#sticky-h1 {
+  position: sticky;
+  top: 0;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  z-index: 2;
+}
+#a {
+  position: relative;
+}
+#a > h2 {
+  position: sticky;
+  top: 65px;
+  background-color: red;
+  padding: 10px;
+}
+#b {
+  position: relative;
+}
+#b > h2 {
+  position: sticky;
+  top: 65px;
+  background-color: red;
+  padding: 10px;
+}
+#c {
+  position: relative;
+}
+#c > h2 {
+  position: sticky;
+  top: 65px;
+  background-color: red;
+  padding: 10px;
 }
